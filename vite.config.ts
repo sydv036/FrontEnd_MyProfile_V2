@@ -8,4 +8,12 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  // configuation shared file __variables.scss in folder styles
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: `@import "styles/utils/_variables.scss";`,
+  //     },
+  //   },
+  // },
 });
