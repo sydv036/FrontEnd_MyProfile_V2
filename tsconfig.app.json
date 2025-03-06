@@ -14,13 +14,27 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-
+    // "allowJs": true, not used js
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    // config absolute path
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "assets/*": ["./src/assets/*"],
+      "services/*": ["./src/services/*"],
+      "styles/*": ["./src/styles/*"],
+      "components/*": ["./src/components/*"],
+      "util/*": ["./src/util/*"],
+      "pages/*": ["./src/pages/*"],
+      "routers/*": ["./src/routers/*"],
+      "hooks/*": ["./src/hooks/*"]
+    }
   },
   "include": ["src"]
 }

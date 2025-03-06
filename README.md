@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -51,4 +51,13 @@ export default tseslint.config({
     ...reactDom.configs.recommended.rules,
   },
 })
-```
+``` -->
+
+#React V 19
+#React Router: npm i --save-exact react-router-dom@6.23.1
+#Axios: npm i --save-exact axios@1.7.2
+#Antd: npm i --save-exact antd@5.18.1 @ant-design/icons@5.3.7
+#Loading Bar - NProgress: npm install --save-exact nprogress@0.2.0
+#Config absolute path: npm i --save-exact --save-dev vite-tsconfig-paths@5.0.1
+URL: https://stackoverflow.com/questions/68241263/absolute-path-not-working-in-vite-project-react-ts
+#Sass: npm install sass --save-dev
