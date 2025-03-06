@@ -32,7 +32,8 @@
       "components/*": ["./src/components/*"],
       "util/*": ["./src/util/*"],
       "pages/*": ["./src/pages/*"],
-      "routers/*": ["./src/routers/*"]
+      "routers/*": ["./src/routers/*"],
+      "hooks/*": ["./src/hooks/*"]
     }
   },
   "include": ["src"]
