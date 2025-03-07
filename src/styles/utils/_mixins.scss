@@ -1,0 +1,9 @@
+@mixin displayFormCenter {
+  margin: 0 auto;
+}
+
+@mixin displayCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

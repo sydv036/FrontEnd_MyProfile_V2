@@ -1,1 +1,15 @@
-@import "styles/utils/_variables.scss";
+@use "@/styles/utils/variables";
+@use "@/styles/utils/mixins";
+
+header {
+  width: $max-width;
+  height: 40px;
+  border-radius: 40px;
+  background-color: $background-color-header;
+  @include displayFormCenter;
+  @include displayCenter;
+  .btn-color {
+    font-size: $text-size;
+    color: $text-color;
+  }
+}
