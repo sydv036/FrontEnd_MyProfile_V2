@@ -1,6 +1,6 @@
 import "styles/layouts/header.scss";
 import ColorPickerRender from "components/layout/headers/ColorPicker";
-import FontFamily from "./headers/FontFamily";
+import FontFamily from "components/layout/headers/FontFamily";
 
 const Header = () => {
   return (
